@@ -10,20 +10,15 @@
       type="image/x-icon"
       sizes="96x96"
     />
+    <link href="style.css" rel="stylesheet">
 
     <title>Flip the coin | devChallenges.io</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="/main.js"></script>
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
+      
 
       .author-info {
         font-size: 14px;
@@ -37,19 +32,21 @@
       }
     </style>
   </head>
-  <body>
-    <!-- 
+  <body class="body">
+    
 
-    Flip a Coin Game
-    Press the coin or the button to flip the coin
-    Head
-    Tail
-    Random
+    <h1 class="body__heading">Flip a Coin Game</h1>
+    <p class="body__para">Press the coin or the button to flip the coin</p>
+    <img id="coinImage" class="body__heads"src="resources/heads.svg" alt="heads"/>
+    <img class="body__shadow" src="resources/shadow.svg" alt="shadow"/>
+    <p class="face">Heads</p>
+    
+    <button id="flip">RANDOM</button>
   
-    -->
+   
 
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
+      Coded by <a href="https://github.com/AyshFawad">Ayesha Banu</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
       >.
